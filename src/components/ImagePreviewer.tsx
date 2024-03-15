@@ -24,7 +24,7 @@ export default function ImagePreviewer({
         </div>
         <div className="col-span-1">
           <Button type="secondary" onClick={() => clearSignature()}>
-            Clear
+            Delete
           </Button>
         </div>
       </div>
