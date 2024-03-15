@@ -1,4 +1,16 @@
-# React + TypeScript + Vite
+#Its Signature App
+
+This is a signature web app
+
+1. You can here generate a signature.
+2. You can change the color of the pen.
+3. You can change the font size of the pen.
+4. Once you are good with your signature you can download it by clicking on download button.
+5. If not then click on clear button and regenerate your signature.
+
+**Thank You**
+
+<!-- # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -27,4 +39,4 @@ export default {
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list -->

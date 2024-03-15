@@ -136,16 +136,24 @@ export default function Canvas() {
           ref={signatureRef}
           canvasProps={{
             className:
-              "signatureCanvas bg-gray-100 border rounded w-full h-[300px]",
+              "signatureCanvas bg-gray-100 rounded w-full h-[300px]",
           }}
           penColor={textColor}
           minWidth={fontSize}
         />
       }
+	  <div className="grid grid-cols-2 justify-between gap-x-2">
+        <div className="col-span-1">
       <Button onClick={() => generateSignature()} type="primary">
         Generate Image
       </Button>
-
+</div>	
+<div className="col-span-1">  
+ <Button onClick={() => clearSignature()} type="secondary">
+        Clear
+      </Button>
+	  </div>
+	  </div>
       {signature && signatureRef.current && (
         <ImagePreviewer src={signature} clearSignature={clearSignature} />
       )}
