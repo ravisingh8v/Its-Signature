@@ -142,7 +142,7 @@ export default function Canvas() {
           minWidth={fontSize}
         />
       }
-	  <div className="grid sm:grid-cols-2 justify-between gap-x-2">
+	  <div className="grid grid-cols-1 sm:grid-cols-2 justify-between gap-2">
         <div className="sm:col-span-1">
       <Button onClick={() => generateSignature()} type="primary">
         Generate Image
